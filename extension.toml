@@ -1,0 +1,6 @@
+schema_version = 1
+id = "blackboard-theme"
+name = "Blackboard"
+description = "A pure black theme, low contrast theme."
+version = "0.1.0"
+authors = ["pbone"]

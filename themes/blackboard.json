@@ -1,0 +1,115 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Blackboard",
+  "author": "pbone",
+  "themes": [
+    {
+      "name": "Blackboard",
+      "appearance": "dark",
+      "style": {
+        "background": "#000",
+        "text.accent": "#fff",
+        "editor.background": "#000",
+        "editor.document_highlight.read_background": "#333",
+        "editor.document_highlight.write_background": "#333",
+        "status_bar.background": "#000",
+        "editor.foreground": "#cecece",
+        "tab_bar.background": "#000",
+        "tab.active_background": "#080808",
+        "tab.inactive_background": "#000",
+        "editor.line_number": "#7f7f7f",
+        "editor.active_line_number": "#bbb",
+        "text": "#bbb",
+        "text.muted": "#7f7f7f",
+        "editor.gutter.background": "#000",
+        "toolbar.background": "#080808",
+        "title_bar.background": "#000",
+        "editor.invisible": "#333",
+        "editor.active_wrap_guide": "#181818",
+        "editor.active_line.background": "#181818",
+        "panel.background": "#000",
+        "border": "#181818",
+        "editor.indent_guide": "#181818",
+        "editor.indent_guide_active": "#202020",
+        "terminal.background": "#000",
+        "terminal.foreground": "#cecece",
+
+        "warning": "#eea",
+        "warning.border": "#eea",
+        "warning.background": "#000",
+        "error": "#f88",
+        "error.border": "#f88",
+        "error.background": "#000",
+        "hint": "#8f8",
+        "hint.border": "#8f8",
+        "hint.background": "#000",
+        "unreachable": "#f8f",
+        "unreachable.border": "#f8f",
+        "unreachable.background": "#000",
+        "ghost_element.hover": "#222",
+        "ghost_element.active": "#363636",
+        "ghost_element.selected": "#2b2b2b",
+        "ghost_element.background": "#00000000",
+        "ghost_element.disabled": "#00000000",
+        "syntax": {
+          "comment": {
+            "color": "#7f7f7f"
+          },
+          "comment.doc": {
+            "color": "#9d9d9d"
+          },
+          "number": {
+            "color": "#acc"
+          },
+          "boolean": {
+            "color": "#f00"
+          },
+          "string": {
+            "color": "#aca"
+          },
+          "title": {
+            "color": "#dfdfdf",
+            "font_weight": 600
+          },
+          "link_text": {
+            "color": "#a8bbdd",
+            "font_weight": 500
+          },
+          "link_uri": {
+            "color": "#8899da"
+          },
+          "punctuation.list_marker": {
+            "color": "#898989"
+          }
+        },
+        "players": [
+          {
+            // gray
+            "cursor": "#ddd",
+            "selection": "#545454"
+          },
+          {
+            // blue
+            "cursor": "#ccf",
+            "selection": "#44445f"
+          },
+          {
+            // red
+            "cursor": "#fcc",
+            "selection": "#5f4444"
+          },
+          {
+            // green
+            "cursor": "#cfc",
+            "selection": "#445f44"
+          },
+          {
+            // yellow
+            "cursor": "#ffc",
+            "selection": "#5f5f44"
+          }
+        ]
+      }
+    }
+  ]
+}
